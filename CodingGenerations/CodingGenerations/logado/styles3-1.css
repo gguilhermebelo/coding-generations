@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f7e6ff;
+  }
+  
+img{
+    max-width: 90px; 
+  margin-left: 0px;
+  float: left;
+  margin-right: -50px;
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #480368;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #480368; 
+    color: white;
+}
+
+.card {
+    background-color: #fff; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+ul li:before {
+    content: '\2022'; 
+    color: #480368; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol li {
+    counter-increment: my-counter;
+    margin-bottom: 8px;
+}
+
+ol li:before {
+    content: counter(my-counter) '.';
+    color:  #480368; 
+    font-weight: bold; 
+    margin-right: 8px;
+}
