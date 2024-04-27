@@ -1,0 +1,1 @@
+Projeto integrado do 2° Periodo de Engenharia de Software contendo as materias: "banco de dados; engenharia de requisitos; interação humano computador e programação web", não podendo usar nenhum tipo de framework por ordens da coordenação 
